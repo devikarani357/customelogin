@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url('https://www.yalgaar.io/Content/themes/Admin/img/login_full_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    width:600px;
+    display:flex;
+    align-items: center;
+}
+.card-image-container img{
+     width:350px;
+}
+.card-details{
+    width:300px;
+    background: white;
+    box-shadow: 0 0 10px black;
+}
+.login-header{
+    padding: 15px;;
+}
+.login-header span{
+    font-size: 24px;
+    font-weight: 800;
+}
+.login-details{
+    padding:10px;
+}
+.login-content-span label{
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+.login-content-span input{
+    width:90%;
+    height:20px;
+    padding-left: 10px;
+}
+.login-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-button button{
+    width:70px;
+    height:30px;
+    background-color: crimson;
+    color:white;
+
+}
